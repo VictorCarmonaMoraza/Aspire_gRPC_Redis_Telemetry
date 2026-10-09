@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasterNet.Client\MasterNet.Client.csproj" />
+    <ProjectReference Include="..\MasterNet.MigrationService\MasterNet.MigrationService.csproj" />
     <ProjectReference Include="..\MasterNet.WebApi\MasterNet.WebApi.csproj" />
   </ItemGroup>
 

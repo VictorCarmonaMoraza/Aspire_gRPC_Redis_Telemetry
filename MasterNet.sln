@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.ServiceDefaults",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.MigrationService", "src\MasterNet.MigrationService\MasterNet.MigrationService.csproj", "{0AC2759F-8490-4466-BF4B-660ABE7A3347}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterNet.MigrationSQLService", "src\MasterNet.MigrationSQLService\MasterNet.MigrationSQLService.csproj", "{4148DA34-F380-222A-C568-3344F72CE79C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,6 +194,18 @@ Global
 		{0AC2759F-8490-4466-BF4B-660ABE7A3347}.Release|x64.Build.0 = Release|Any CPU
 		{0AC2759F-8490-4466-BF4B-660ABE7A3347}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AC2759F-8490-4466-BF4B-660ABE7A3347}.Release|x86.Build.0 = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|x64.Build.0 = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Debug|x86.Build.0 = Debug|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|x64.ActiveCfg = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|x64.Build.0 = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|x86.ActiveCfg = Release|Any CPU
+		{4148DA34-F380-222A-C568-3344F72CE79C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +223,7 @@ Global
 		{F63E0B25-CAF8-498A-B788-A4502E20B4D8} = {62482755-2FB1-4EE2-950A-ACC71C159323}
 		{ED5E3793-C7C5-47E3-9E48-30F90BBFE05B} = {62482755-2FB1-4EE2-950A-ACC71C159323}
 		{0AC2759F-8490-4466-BF4B-660ABE7A3347} = {62482755-2FB1-4EE2-950A-ACC71C159323}
+		{4148DA34-F380-222A-C568-3344F72CE79C} = {62482755-2FB1-4EE2-950A-ACC71C159323}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97BA5CDE-79E0-4A03-B058-D9B206DB6F05}

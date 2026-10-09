@@ -30,6 +30,12 @@ public partial class Program
             .WaitFor(api)
             .WithExternalHttpEndpoints();
 
+        // Registra el proyecto de migración de base de datos.
+        builder.AddProject<Projects.MasterNet_MigrationService>("migration")
+            .WithReference(db)
+            .WaitFor(db)
+            .WithParentRelationship(server);
+
         // Construye toda la aplicación distribuida y la ejecuta.
         builder.Build().Run();
     }
