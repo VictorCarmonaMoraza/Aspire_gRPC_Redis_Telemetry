@@ -1,15 +1,12 @@
-﻿using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microsoft.Extensions.Hosting; // Importa la clase base para servicios en segundo plano.
 
-namespace MasterNet.MigrationSQLService
+namespace MasterNet.MigrationSQLService // Define el espacio de nombres del servicio de migración SQL.
 {
-    public class Worker : BackgroundService
+    public class Worker : BackgroundService // Declara un servicio en segundo plano que se ejecutará con el host.
     {
-        protected override Task ExecuteAsync(CancellationToken stoppingToken)
+        protected override Task ExecuteAsync(CancellationToken stoppingToken) // Define la lógica principal que se ejecuta cuando arranca el servicio.
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); // Indica que la implementación del trabajo aún no ha sido desarrollada.
         }
     }
 }
